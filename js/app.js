@@ -240,4 +240,4 @@ let extra = ["photos", "snacks", "guest list"];
 tasks.unshift("planning");
 tasks.push("cleaning");
 let allTasks = tasks.concat(extra);
-console.log(allTasks.sort().join(" | "));
+console.log(allTasks.sort().join("   "));
